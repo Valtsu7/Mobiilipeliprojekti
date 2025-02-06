@@ -9,6 +9,9 @@ dist/
 web-build/
 expo-env.d.ts
 
+# firebase
+firebase
+
 # Native
 *.orig.*
 *.jks
@@ -34,18 +37,3 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
-
-# Firebase configuration files
-firebase.js        # Tai tiedoston nimi, jossa firebaseConfig on
-firebase-config.json # Jos käytät erillistä JSON-tiedostoa
-google-services.json # Google Services -tiedosto Androidille
-GoogleService-Info.plist # Google Services -tiedosto iOS:lle (jos käytät)
-
-# Muut mahdolliset Firebase-tiedostot
-*.json.secret # Jos käytät salaisia JSON-tiedostoja
-*.plist.secret # Jos käytät salaisia plist-tiedostoja
-
-# Yleiset tiedostot, joita ei kannata lisätä versionhallintaan
-.env             # Ympäristömuuttujatiedosto (yleinen)
-.env.development # Ympäristömuuttujatiedosto (kehitys)
-.env.production  # Ympäristömuuttujatiedosto (tuotanto)
