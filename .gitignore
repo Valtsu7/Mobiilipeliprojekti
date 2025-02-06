@@ -10,7 +10,7 @@ web-build/
 expo-env.d.ts
 
 # firebase
-firebase
+firebase.js
 
 # Native
 *.orig.*
