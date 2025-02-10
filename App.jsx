@@ -1,10 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import AloitusSivu from './Aloitus/AloitusSivu'; // Tuo AloitusSivu-komponentti
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on yourorusbgiurbygyufctuctugourp!  ing going to kill yuo allll</Text>
+      <AloitusSivu /> {/* Renderöi AloitusSivu-komponentti */}
       <StatusBar style="auto" />
     </View>
   );
